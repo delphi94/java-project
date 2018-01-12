@@ -11,7 +11,7 @@ pipeline {
   
   post {
     always {
-	  archvie 'dist/*.jar'
+	  archive 'dist/*.jar'
 	}  
   }
 }
