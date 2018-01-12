@@ -8,4 +8,10 @@ pipeline {
 	  }
 	}
   }
+  
+  post {
+    always {
+	  archvie 'dist/*.jar'
+	}  
+  }
 }
