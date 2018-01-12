@@ -11,7 +11,7 @@ pipeline {
   
   post {
     always {
-	  archive 'dist/*.jar'
+	  archvieArtifacts artifacts: 'dist/*.jar', fingerprint:  true
 	}  
   }
 }
